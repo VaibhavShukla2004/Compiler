@@ -1,0 +1,21 @@
+# Compiled executable
+main
+
+# Object files
+*.o
+
+# Generated assembly
+*.s
+
+# Build directory
+build/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# OS/editor files
+.vscode/
+.DS_Store
