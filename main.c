@@ -1,12 +1,11 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "common.h" //common header files needed
 #include "lexer.h"
 
 int main(){
     char inputfileName[100];
 
     printf("Enter the input file name: ");
-    scanf("%s", inputfileName);
+    scanf("%99s", inputfileName);
 
     FILE *inputFile = fopen(inputfileName, "r");
 

@@ -1,3 +1,4 @@
+#include "common.h"
 #ifndef LEXER_H
 #define LEXER_H
 
@@ -8,7 +9,7 @@ typedef struct Token {
 }Token;
 
 typedef struct {
-    Token TokenArray[1024];
+    Token tokenArray[1024];
     int noOfTokens;
 }TokenList;
 
