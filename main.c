@@ -16,6 +16,9 @@ int main(){
         printf("File %s opened successfully\n", inputfileName);
     }
 
+    //1.Lex the file and get the tokens
+    //2.Parse the tokens and build the AST
+    //3. Generate the code from the AST
 
     return 0;
 }
