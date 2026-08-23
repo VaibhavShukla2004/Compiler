@@ -21,5 +21,6 @@ int main(){
     //2.Parse the tokens and build the AST
     //3. Generate the code from the AST
 
+    fclose(inputFile);
     return 0;
 }

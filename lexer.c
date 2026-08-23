@@ -6,7 +6,8 @@ const char *keywords[] = {
     "return",
     "if",
     "else",
-    "for"
+    "for",
+    "printf"
 };
 
 const int noOfKeywords = sizeof(keywords) / sizeof(keywords[0]);
