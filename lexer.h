@@ -3,9 +3,9 @@
 #define LEXER_H
 
 typedef struct Token {
-    char tokenname[100];
+    char tokenName[100];
     char tokenType[100];
-    int size;
+    unsigned int row,col;
 }Token;
 
 typedef struct {

@@ -1,4 +1,3 @@
-#include "common.h" //common header files needed
 #include "lexer.h"
 
 int main(){
